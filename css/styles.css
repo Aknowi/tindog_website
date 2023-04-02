@@ -1,0 +1,189 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-column {
+  padding-right: 50px;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.image-box {
+  position: relative;
+}
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* features section */
+#features {
+  position: relative;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+}
+
+.features-text {
+  padding: 0 80px;
+}
+
+.col-features {
+  margin: 50px 0;
+}
+
+.icon-features {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon-features:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  padding: 0 10%;
+}
+
+.img-testim {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+/* PRESS */
+#press {
+  background-color: #ef8172;
+  padding: 0 3% 3% 3%;
+}
+
+.img-press {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-control-prev-icon {
+  -webkit-text-stroke: 5px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+}
+
+.price-heading {
+  font-size: 1.5rem;
+}
+
+.col-pricing {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  padding: 0 10%;
+}
+
+/* Footer */
+
+#footer .container-fluid {
+  padding: 7% 15% 3%;
+}
+
+.icon-footer {
+  padding: 20px 15px;
+}
