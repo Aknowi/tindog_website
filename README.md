@@ -1,4 +1,4 @@
-# tindog website
+# Tindog website
 
 Overview page promoting dog app created during the course at Udemy by Angela Yu.
 
