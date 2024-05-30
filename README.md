@@ -6,7 +6,7 @@ Overview page promoting dog app created during the course at Udemy by Angela Yu.
 
 - HTML
 - CSS
-- Bootstrapt
+- Bootstrap
 
 ## Functionalities
 
